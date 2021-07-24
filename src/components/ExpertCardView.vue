@@ -4,7 +4,7 @@
     max-width="400"
     :elevation="eval"
     link
-    :to="Clink ? `experts\\${expert.id}` : ``"
+    :to="Clink ? `experts/${expert.id}` : ``"
   >
 
     <v-avatar size="150" class="mx-4">
