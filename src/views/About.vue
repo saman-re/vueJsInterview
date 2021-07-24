@@ -18,12 +18,10 @@ import Chart from "../components/Chart.vue";
 export default {
   created() {
     let id = this.$route.params.id;
-    console.log(this.$store.state.experts[id]);
     return this.$store.state.experts[id];
   },
   data() {
     let id = this.$route.params.id;
-    // console.log(this.$store.state.experts[id]);
     return {
       expert: this.$store.state.experts[id],
     };

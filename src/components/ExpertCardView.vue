@@ -3,7 +3,7 @@
     class="mx-auto d-flex flex-column align-center px-10 pt-4 pb-2"
     max-width="400"
     :elevation="eval"
-    link
+    :link ="Clink ? true : false"
     :to="Clink ? `experts/${expert.id}` : ``"
   >
 

@@ -5,7 +5,7 @@
     <v-sheet
       class="v-sheet--offset mx-auto"
       color="cyan"
-      elevation="3"
+      elevation="4"
       max-width="calc(100% - 40px)"
     >
       <v-sparkline
