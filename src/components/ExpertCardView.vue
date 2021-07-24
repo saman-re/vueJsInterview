@@ -3,10 +3,8 @@
     class="mx-auto d-flex flex-column align-center px-10 pt-4 pb-2"
     max-width="400"
     :elevation="eval"
-    @mouseenter="eval=14"
-    @mouseleave="eval=3"
     link
-    :to="`experts\\${expert.id}`"
+    :to="Clink ? `experts\\${expert.id}` : ``"
   >
 
     <v-avatar size="150" class="mx-4">
@@ -38,11 +36,11 @@
 
 <script>
 export default {
-  props: ["expert"],
+  props: ["expert" ,"Clink"],
 
   data(){
     return{
-      eval:4
+      eval:4,
     }
   },
 
