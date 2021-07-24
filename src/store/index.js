@@ -7,7 +7,7 @@ export default new Vuex.Store({
   state: {
     experts:[
       {
-      name:'saman',
+      name:'Ali',
       id:0,
       return:10.4,
       risk:2,
@@ -27,7 +27,7 @@ export default new Vuex.Store({
       ],
     },
     {
-      name:'saman',
+      name:'Saman',
       id:1,
       return:-10.4,
       risk:5,
@@ -47,7 +47,7 @@ export default new Vuex.Store({
       ],
     },
     {
-      name:'saman',
+      name:'Mohammad',
       id:2,
       return:0,
       risk:2,
@@ -67,7 +67,7 @@ export default new Vuex.Store({
       ],
     },
     {
-      name:'saman',
+      name:'Reza',
       id:3,
       return:10.4,
       risk:2,
@@ -87,7 +87,7 @@ export default new Vuex.Store({
       ],
     },
     {
-      name:'saman',
+      name:'Komeil',
       id:4,
       return:10.4,
       risk:8,
