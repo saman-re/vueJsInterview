@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <navigation-drawer />
-    <v-row class="mx-1 mt-10 justify-center justify-md-start" no-gutters>
+    <v-row class="mx-1 mt-10 justify-center justify-md-start container" no-gutters>
       <v-col class="justify-center px-2" v-for="(expert,index) in experts" :key="index" cols="12" sm="6" md="4" lg="3">
     <expert-card-view :expert="expert" :Clink="true" class="my-2"/>
       </v-col>
