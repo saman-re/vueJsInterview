@@ -1,23 +1,23 @@
 <template>
   <v-card
-    class="mx-auto pt-5"
+    class="mx-auto pt-0"
   >
     <v-sheet
       class="v-sheet--offset mx-auto"
       color="cyan"
       elevation="4"
-      max-width="calc(100% - 40px)"
+      max-width="100%"
     >
       <v-sparkline
         :labels="labels"
         :value="value"
         color="white"
         line-width="2"
-        padding="16"
+        class="px-2"
       ></v-sparkline>
     </v-sheet>
 
-    <v-card-text class="pt-0 mt-5">
+    <v-card-text class="pt-0 mt-5 text-center">
       <div class="text-h6 font-weight-light mb-2">
         Expert Trade Status
       </div>

@@ -1,6 +1,6 @@
 <template>
   <v-card
-    class="mx-auto d-flex flex-column align-center px-10 pt-4 pb-2"
+    class="mx-auto d-flex flex-column align-center px-6 pt-4 pb-2"
     max-width="400"
     :elevation="eval"
     :link ="Clink ? true : false"
@@ -16,18 +16,18 @@
     }}</v-card-title>
 
     <v-card-text
-      class="text--primary text-button d-flex flex-column align-center"
+      class="text--primary text-button font-weight-black d-flex flex-column align-center"
     >
       <div>
         <div>
           Return:
-          <span :class="`${returnColor(expert.return)}`">{{
+          <span :class="`${returnColor(expert.return)}`" class="text-h6">{{
             returnSign(expert.return)
           }}</span>
         </div>
         <div>
           Risk:
-          <span :class="`${riskColor(expert.risk)}`">{{ expert.risk }}</span>
+          <span :class="`${riskColor(expert.risk)}`" class="text-h6">{{ expert.risk }}</span>
         </div>
       </div>
     </v-card-text>
@@ -47,9 +47,9 @@ export default {
   methods: {
     returnSign(returnVal) {
       if (returnVal > 0) {
-        return "+" + returnVal;
+        return "+" + returnVal + "%";
       } else if (returnVal < 0) {
-        return returnVal;
+        return returnVal + "%";
       }
       return returnVal;
     },

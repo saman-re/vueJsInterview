@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about container">
     <v-row class="mx-1 mx-md-5 mt-10 justify-center" no-gutters>
       <v-col class="px-2" cols="12" sm="5" lg="3">
         <expert-card-view :expert="expert" :Clink="''" class="my-2 pb-lg-15" />
