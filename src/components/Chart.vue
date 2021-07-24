@@ -13,7 +13,7 @@
         :value="value"
         color="white"
         line-width="2"
-        class="px-2"
+        class="mx-4"
       ></v-sparkline>
     </v-sheet>
 

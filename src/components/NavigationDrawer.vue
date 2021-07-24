@@ -73,7 +73,6 @@ const vw = Math.max(
 );
 export default {
   created() {
-    console.log(vw);
     if (vw >= 1263) {
       this.navDrawer = true;
     }else{
